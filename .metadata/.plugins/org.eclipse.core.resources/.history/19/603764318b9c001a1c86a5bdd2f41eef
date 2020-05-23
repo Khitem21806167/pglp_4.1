@@ -7,7 +7,7 @@ import java.util.Vector;
 import java.util.stream.Collectors;
 import java.util.List;
 
-public class Personnel extends TypePersonnel  {
+public class Personnel  {
 	private String nom;
 	private String prenom; 
 	private LocalDate dateNais;
@@ -127,12 +127,6 @@ public class Personnel extends TypePersonnel  {
 				//+numtel.stream()
 				//.map(TypeTelephone::toString);
 				//.collect(Collectors.toList());
-	}
-
-	@Override
-	public boolean pers() {
-		// TODO Auto-generated method stub
-		return false;
 	}
 
 	
